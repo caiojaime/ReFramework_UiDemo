@@ -546,7 +546,7 @@
                           </Transition.Action>
                           <Transition.Condition>[SystemError isNot Nothing]</Transition.Condition>
                         </Transition>
-                        <Transition DisplayName="T1" sap2010:WorkflowViewState.IdRef="Transition_8">
+                        <Transition DisplayName="T1" sap:VirtualizedContainerService.HintSize="451.428571428571,522.857142857143" sap2010:WorkflowViewState.IdRef="Transition_8">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:PointCollection x:Key="ConnectorLocation">452.5,115.357142857143 452.5,145.357142857143 477.928571428571,145.357142857143 477.928571428571,115.357142857143</av:PointCollection>
@@ -557,6 +557,9 @@
                           <Transition.To>
                             <x:Reference>__ReferenceID1</x:Reference>
                           </Transition.To>
+                          <Transition.Condition>
+                            <Literal x:TypeArguments="x:Boolean" />
+                          </Transition.Condition>
                         </Transition>
                       </State.Transitions>
                     </State>
