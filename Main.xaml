@@ -5,7 +5,11 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
+<<<<<<< HEAD
   <sap:VirtualizedContainerService.HintSize>882.857142857143,989.142857142857</sap:VirtualizedContainerService.HintSize>
+=======
+  <sap:VirtualizedContainerService.HintSize>796.571428571429,989.142857142857</sap:VirtualizedContainerService.HintSize>
+>>>>>>> develop
   <sap2010:WorkflowViewState.IdRef>Main2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -199,7 +203,11 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <Transition.To>
+<<<<<<< HEAD
             <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Process a single transaction. &#xA;The result of the processing can be: 1) Success, 2) Business Rule Exception, 3) System Error. &#xA;In the case of System Error, the transaction can be automatically retried." DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="485.714285714286,1078.85714285714" sap2010:WorkflowViewState.IdRef="State_3">
+=======
+            <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Process a single transaction. &#xA;The result of the processing can be: 1) Success, 2) Business Rule Exception, 3) System Error. &#xA;In the case of System Error, the transaction can be automatically retried." DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="231.428571428571,201.714285714286" sap2010:WorkflowViewState.IdRef="State_3">
+>>>>>>> develop
               <State.Entry>
                 <TryCatch DisplayName="Try to process transaction" sap:VirtualizedContainerService.HintSize="438.857142857143,568.571428571429" sap2010:WorkflowViewState.IdRef="TryCatch_9">
                   <sap:WorkflowViewStateService.ViewState>
@@ -563,6 +571,7 @@
                           </Transition.Action>
                           <Transition.Condition>[SystemError isNot Nothing]</Transition.Condition>
                         </Transition>
+<<<<<<< HEAD
                         <Transition DisplayName="T1" sap:VirtualizedContainerService.HintSize="451.428571428571,576.571428571429" sap2010:WorkflowViewState.IdRef="Transition_8">
                           <Transition.Trigger>
                             <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke InitAllApplications workflow" sap:VirtualizedContainerService.HintSize="334.285714285714,113.714285714286" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_26" UnSafe="False" WorkflowFileName="Framework\InitAllApplications.xaml">
@@ -571,6 +580,9 @@
                               </ui:InvokeWorkflowFile.Arguments>
                             </ui:InvokeWorkflowFile>
                           </Transition.Trigger>
+=======
+                        <Transition DisplayName="T1" sap2010:WorkflowViewState.IdRef="Transition_8">
+>>>>>>> develop
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:PointCollection x:Key="ConnectorLocation">452.5,115.357142857143 452.5,145.357142857143 477.928571428571,145.357142857143 477.928571428571,115.357142857143</av:PointCollection>

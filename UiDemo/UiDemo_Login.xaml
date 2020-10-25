@@ -5,7 +5,11 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
+<<<<<<< HEAD
   <sap:VirtualizedContainerService.HintSize>796,1116.57142857143</sap:VirtualizedContainerService.HintSize>
+=======
+  <sap:VirtualizedContainerService.HintSize>705.142857142857,1116.57142857143</sap:VirtualizedContainerService.HintSize>
+>>>>>>> develop
   <sap2010:WorkflowViewState.IdRef>UiDemo_Login_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="25">
@@ -37,7 +41,11 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
+<<<<<<< HEAD
     <scg:List x:TypeArguments="AssemblyReference" Capacity="60">
+=======
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="30">
+>>>>>>> develop
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -67,11 +75,18 @@
       <AssemblyReference>UiPath.Word</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+<<<<<<< HEAD
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:Annotation.AnnotationText="O aplicativo UiDemo é iniciado&#xA;" DisplayName="UiDemo_Login" sap:VirtualizedContainerService.HintSize="476.571428571429,951.428571428571" sap2010:WorkflowViewState.IdRef="Sequence_1">
+=======
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="O aplicativo UiDemo é iniciado&#xD;&#xA;" DisplayName="UiDemo_Login" sap:VirtualizedContainerService.HintSize="476.571428571429,951.428571428571" sap2010:WorkflowViewState.IdRef="Sequence_1">
+>>>>>>> develop
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Username" />
       <Variable x:TypeArguments="ss:SecureString" Name="Password" />
@@ -95,7 +110,11 @@
         </OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
+<<<<<<< HEAD
     <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'uidemo.exe  UiDemo'" sap:VirtualizedContainerService.HintSize="434.285714285714,660" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="1e7d6871f38fa69a47b1a5b8ddd946a1" Selector="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UiDemo' /&gt;">
+=======
+    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'uidemo.exe  UiDemo'" sap:VirtualizedContainerService.HintSize="434.285714285714,660" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="7d20454f75a0576b410400675706f964" Selector="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UiDemo' /&gt;">
+>>>>>>> develop
       <ui:WindowScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -107,7 +126,11 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+<<<<<<< HEAD
             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'editable text  user'" sap:VirtualizedContainerService.HintSize="334.285714285714,133.142857142857" sap2010:WorkflowViewState.IdRef="TypeInto_3" SimulateType="True" Text="[Username]">
+=======
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'editable text  user'" sap:VirtualizedContainerService.HintSize="334.285714285714,133.142857142857" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="[Username]">
+>>>>>>> develop
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6f11dfa0-7db4-4b39-bbff-a3010bb25e61" InformativeScreenshot="771c42d946cf46bc5650efea75a5e3c9" Selector="&lt;ctrl automationid='user' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -119,7 +142,11 @@
                 </ui:Target>
               </ui:TypeInto.Target>
             </ui:TypeInto>
+<<<<<<< HEAD
             <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Secure Text 'editable text  pass'" sap:VirtualizedContainerService.HintSize="334.285714285714,105.142857142857" sap2010:WorkflowViewState.IdRef="TypeSecureText_2" SecureText="[Password]" SimulateType="True">
+=======
+            <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Secure Text 'editable text  pass'" sap:VirtualizedContainerService.HintSize="334.285714285714,105.142857142857" sap2010:WorkflowViewState.IdRef="TypeSecureText_2" SecureText="[Password]">
+>>>>>>> develop
               <ui:TypeSecureText.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c90adf05-c059-442d-822b-8a63db669442" InformativeScreenshot="57153f849ace4ac8f14a51ead78eae12" Selector="&lt;ctrl automationid='pass' /&gt;">
                   <ui:Target.TimeoutMS>
